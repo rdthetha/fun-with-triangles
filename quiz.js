@@ -1,6 +1,6 @@
 const quizForm=document.querySelector(".quiz-form");
-const submitAnsweBtn=document.querySelector("#submit-answer-btn");
-const output=document.querySelector("#output");
+const submitAnsweBtn=document.querySelector("#quiz-btn");
+const output=document.querySelector("#quiz-output");
 
 const correctAnswers=["90","right-angled"];
 

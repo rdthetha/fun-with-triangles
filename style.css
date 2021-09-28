@@ -1,8 +1,115 @@
-.container{
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+
+:root{
+    --primary-color: #05386B;
+    --background-color: #5CDB95;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+body {
+	color: var(--primary-color);
+	background: var(--background-color);
+    margin: 0px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+nav {
+	background: var(--primary-color);
+	padding: 1.5rem;
+	margin-bottom: 2rem;
+    
+}
+a {
+	text-decoration: none;
+	color: white;
+	padding: 0.5rem;
+	font-weight: bolder;
+	font-size: 2rem;
+}
+
+.item-active {
+	border-bottom: 2px solid;
+	font-weight: bold;
+}
+.container {
+    font-size: 2rem;
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 90%;
     margin: auto;
     align-items: center;
-    
+
+}
+input{
+    width: 15%;
+    margin: 1rem;
+}
+
+button{
+    padding: 1rem 1.5rem;
+    background-color: var(--primary-color);
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+#output-message{
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 2rem;
+    color: white;
+    padding: 1rem;
+    color: var(--primary-color);
+    font-weight: bolder;
+}
+
+#hypo-output{
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 2rem;
+    color: white;
+    padding: 1rem;
+    color: var(--primary-color);
+    font-weight: bolder;
+}
+
+#area-output{
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+    color: var(--primary-color);
+    font-weight: bolder;
+}
+
+.question-container {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: bold;
+}
+#quiz-btn-div{
+    margin: auto;
+    text-align: center;
+}
+#quiz-btn{
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#heading{
+    text-align: center;
+	 color: var(--primary-color); 
+	margin: 0rem;
+    font-size: 4rem;
+}
+
+#quiz-output{
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+    color: var(--primary-color);
+    font-weight: bolder;
+    text-align: center;
 }
