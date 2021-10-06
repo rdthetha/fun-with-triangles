@@ -1,2 +1,2 @@
 # fun-with-triangles
- About Triangles
+This is a quiz based on triangles which performs various functions.
